@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head><!--Metadata-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Triangle TechServe Foundation</title>
+        <link rel="stylesheet" href="/Users/SaiJ/Desktop/TTSF Website/styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+        <link rel="icon" href="Icon.svg" type="image/svg+xml">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <img class="logo" src="logo stuff.png" alt="TTSF Logo">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="events.html">Events</a></li>
+                    <li><a href="">Join</a></li>
+                </ul>
+                <button onclick=showPopUp()>Follow Us!</button>
+                <dialog id="pop-up">
+                    <div class="realPopUp">
+                        <h4>Follow us on these social medias:</h4>
+                        <a href="https://www.instagram.com/triangletechservefoundation?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i><instagram> TRIANGLETECHSERVEFOUNDATION</instagram></a>
+                        <a href="https://bit.ly/techservefacebook"><i class="fab fa-facebook-f"></i><facebook> BIT.LY/TECHSERVEFACEBOOK</facebook></a>
+                    </div>
+                </dialog>
+                <script>
+                    const dialog = document.getElementById("pop-up")
+                    function showPopUp(){
+                        dialog.showModal()
+                    }
+                    dialog.addEventListener("click", (e) => {
+                        if(!realPopUp.contains(e.target)){
+                            dialog.close()
+                        }
+                    })
+                    const realPopUp = document.querySelector(".realPopUp")
+                </script>
+            </nav>
+        </header>
+        <main>
+            <div class="statement">
+                <h3>Events at TechServe</h3>
+                <p>Learn how you can participate at TechServe and give back to the community. Follow us on Facebook and Instagram for the latest updates.</p>
+                <p><a href="https://www.instagram.com/triangletechservefoundation?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i><instagram> TRIANGLETECHSERVEFOUNDATION</instagram></a></p>
+                <p><a href="https://bit.ly/techservefacebook"><i class="fab fa-facebook-f"></i><facebook> BIT.LY/TECHSERVEFACEBOOK</facebook></a></p>
+            </div>
+            <div class="people">
+                <div class="person">
+                    <h2>New Events Will Arive Soon!</h2>
+                 </div>
+            </div>
+        </main>
+        <footer>
+            <logo><img src="logo stuf. fullLogo.png" alt="TTSF Full Logo"></logo>
+            <ul cass="footerBox">
+                <li class="heading">Browse</li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="http://bit.ly/ttsfregister">Join</a></li>
+            </ul>
+            <ul class="footerBox">
+                <li class="heading">Contact</li>
+                <li><i class="fas fa-map-marker-alt" aria-hidden="true"></i><location> Cary, North Carolina</location></li>
+                <li><i class="fas fa-envelope" aria-hidden="true"></i><email> triangletechservefoundation@gmail.com</email></li>
+            </ul>
+            <ul class="footerBox">
+                <li class="heading">Socials</li>
+                <li><a href="https://www.instagram.com/triangletechservefoundation?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw=="><i class="fab fa-instagram"></i><instagram> TRIANGLETECHSERVEFOUNDATION</instagram></li></a>
+                <li><a href="https://bit.ly/techservefacebook"><i class="fab fa-facebook-f"></i><facebook> BIT.LY/TECHSERVEFACEBOOK</facebook></a></li>
+            </ul>
+            <p>Copyright 2024. All rights reserved.</p>
+        </footer>
+    </body>
+</html>
