@@ -3,6 +3,7 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Helvetica, sans-serif;
+
     a {
         text-decoration: none;
         color: inherit;
@@ -15,6 +16,24 @@ header{
     padding: 0%;
     margin: 0%;
 
+    div{
+        padding: 10px 100px;
+        color: black;
+        background-color: yellow;
+        display: flex;
+        justify-content: space-between;
+        url{
+            font-style:italic;
+        }
+        button{
+            all: unset;
+        }
+        @media (max-width: 600px){
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+    }
     nav{
         display: flex;
         align-items: center;
