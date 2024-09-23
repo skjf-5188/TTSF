@@ -155,7 +155,7 @@ main{
     .titleCard {
         margin: 0;
         padding: 0;
-        background-image: url("https://images-ext-1.discordapp.net/external/gv3ieuoIbkO_w5gU63wnHwFnexBzN4VWLmY1_CkcDhE/https/www.msd.cz/cs/wp-content/uploads/sites/62/2021/11/news-2020-11-23-laptops.jpg?format=webp&width=2130&height=1198");
+        background-image: url("TTSF hero.jpg");
         background-size: cover;
         background-attachment: fixed;
         background-position: center;
@@ -179,7 +179,7 @@ main{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        background-image: url("https://images.rawpixel.com/image_social_landscape/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3B4MTA4Nzk5OS1pbWFnZS1rd3Z5NG5zYS5qcGc.jpg");
+        background-image: url("Databoard reference image.jpg");
         @media (max-width: 600px){
             flex-direction: column;
         }
